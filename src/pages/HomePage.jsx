@@ -9,7 +9,8 @@ export const HomePage = () => {
 	return (
 		<>
 			<div className='container-filter container'>
-				<div className='icon-filter' onClick={() => setActive(!active)}>
+				<div className='icon-filter' onClick={() => setActive(!active)}> 
+				{/* aqui se pone el active en negativa para cerrar el filtrado */}
 					<svg
 						xmlns='http://www.w3.org/2000/svg'
 						fill='none'

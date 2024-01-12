@@ -145,7 +145,7 @@ return (
             // Loader
             loading,
             setLoading,
-            // Btn Filter
+            // Es para el filtrado
             active,
             setActive,
             // Filter Container Checkbox
